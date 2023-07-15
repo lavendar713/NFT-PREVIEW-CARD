@@ -1,0 +1,118 @@
+body { width: 100%;
+background: hsl(217, 54%, 11%);
+display: flex;
+justify-content: center;
+align-items: center;
+box-sizing: border-box;
+flex-wrap: nowrap;
+margin: 0;
+height: 100vh;
+}
+
+main {
+width: 310px;
+background:  hsl(216, 50%, 16%);
+display: flex;
+justify-content: center;
+flex-direction: column;
+font-family: Outfit;
+padding: 20px 20px 25px 20px;
+height: 550px;
+border-radius: 13px;}
+
+.equilibrum { display: flex;
+justify-content: center;}
+
+.equilibrum img {  width: 97%;
+margin: 0 auto;
+border-radius: 13px;}
+
+.eye img { width: 40px;}
+
+.eye {
+	position: absolute;
+	width: 300.7px;
+	top: 11%;
+	background-color: hsl(178, 100%, 50%, 50%);
+	z-index: 2;
+	opacity: 0;
+	display: flex;
+	height: 300.7px;
+	justify-content: center;
+	align-items: center;
+	transition: opacity 0.3s ease-in-out;
+    border-radius: 13px ;
+}
+
+.eye:hover {
+	cursor: pointer;
+	opacity: 1;
+}
+
+
+h1 { color: white;
+text-decoration: none;
+font-weight: 600;
+font-size: 22px;
+margin-top: 23px;
+margin-bottom: 10px;}
+
+
+.time-piece { display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    border-bottom-style: solid;
+    border-bottom-width: 0.0001cm;
+    border-bottom-color:  hsl(215, 32%, 27%);
+}
+
+.ether { padding-right: 5px;}
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: nowrap;
+    font-weight: 400;
+    color: hsl(178, 100%, 50%);
+}
+
+a { color: white;
+text-decoration: none;
+}
+a:active { color:hsl(178, 100%, 50%) }
+a:hover { color: hsl(178, 100%, 50%);}
+img.clock { width: 17px;
+padding-right: 7px;}
+.expiration-time { display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-wrap: nowrap;
+    font-weight: 300;
+     padding-left: 30px;
+    color: hsl(215, 51%, 70%);}
+
+ .avatar { display: flex;
+    align-items: center;
+    justify-content: left;
+    color: hsl(215, 51%, 70%);
+    padding-top: 15px;
+    font-weight: 300;
+}   
+
+.span { padding-left: 15px;
+padding-right: 4px;}
+
+.avatar img { width: 30px;
+    height: 30px;
+    border: solid;
+    border-radius: 50%;
+    border-width: 1px;
+    border-color: white;}
+
+p { font-size: 18px;
+font-weight: 300;
+margin-top: 11px;
+margin-bottom: 20px;
+color: hsl(215, 51%, 70%);}
